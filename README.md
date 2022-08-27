@@ -1,3 +1,7 @@
+## Welcome to the source code for AltCast
+
+AltCast is a live streaming alternative to live announcer broadcasts for sporting events and a streaming service for commentary on any other video media.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
