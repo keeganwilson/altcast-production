@@ -1,7 +1,7 @@
 // @ts-nocheck
 import React, { useState, useEffect } from "react";
 import "./Results.css";
-import VideoCard from "./VideoCard";
+import GameCard from "./GameCard";
 import axios from "../../helpers/axios";
 import FlipMove from "react-flip-move";
 
@@ -22,7 +22,7 @@ const GameResults = ({ selectedOption }) => {
     <div className="results">
       <FlipMove>
         {games.map((game) => (
-          <VideoCard key={game.id} games={game} />
+          <GameCard key={game.id} game={game} />
         ))}
       </FlipMove>
     </div>
